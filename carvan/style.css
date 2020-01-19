@@ -44,7 +44,9 @@ header .headline {
     height: 300px; /* 高さ */
     background-color: ; /* 背景色 */
     background-image: url(img/mv.jpg);
+    background-size: cover;
 }
+
 .main-visual-content {
     width: 350px;
     height: 300px;
