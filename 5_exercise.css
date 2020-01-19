@@ -23,7 +23,7 @@ header .headline{
 .nav-list{
     text-align: center;
     padding: 15px 0px;
-    margin: 0 auto;
+    margin: 0 auto;/*あってもなくても変わらない、別に必要ない*/
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -31,7 +31,7 @@ header .headline{
 .list-item{
     list-style: none;
     display: inline-block;
-margin: 0 20px;
+    margin: 0 20px;
 }
 
 .mainbox{
