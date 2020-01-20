@@ -60,3 +60,36 @@ main{
     height: 180px;
     width: 280px;
 }
+
+/*レスポンシブ*/
+@media screen and (max-width:425px){
+    main{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .box{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        float: none;  　/*これがないと、mainで決めたmarginを無視してくる*/
+    }
+
+    .img1{
+        width: 266px;
+        height: 90px;
+    }
+
+    .img2{
+        width: 266px;
+        height: 90px;
+    }
+
+    .img3{
+        width: 266px;
+        height: 90px;
+    }
+}
