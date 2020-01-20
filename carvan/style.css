@@ -217,3 +217,88 @@ footer {
 .footer-text {
     color: #ffffff;
 }
+
+@media screen and (max-width:425px) {
+    header {
+        width: 100%;
+    }
+    .nav-list {
+        width: 100%;
+    }
+    .nav-list-item {
+        width: 100%; /*list一つ一つの幅を１００％に下から縦並びになる*/
+        margin: 0 0 10px 0; /*下側に間隔開ける*/
+    }
+    .social {
+        display: none;　/*なんでアイコン消した？*/
+    }
+    .main-visual-content {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .blog {
+        width: 100%;　/*floutの設定変えなくも１００％にすれば横に入れない*/
+        margin: 0;
+    }
+    .blog-box {
+        padding-left: 2%;　 /*完全に端にくっついていると見にくいから*/
+        padding-right: 2%;
+    }
+    .blog-image {
+        width: 49%;　/*単純に画像が大きすぎる*/
+    }
+    .blog-text {
+        width: 49%;
+        padding-top: 5px; /*上側を少し開けて見栄えよく*/
+    }
+    .sidebar {
+        width: 100%;　/*floutの設定変えなくも１００％にすれば横に入れない*/
+        padding-left: 3%;　/*完全に端にくっついていると見にくいから*/
+        padding-right: 3%;
+    }
+    .instagram-box {
+        width: 48%;
+        padding-top: 48%; /*なにこれ、このpadding-topの意味がわからない*/
+    }
+    .instagram-box:nth-child(odd) {
+        margin-right: 4%;
+    }
+    .pagination { 
+        margin-bottom: 50px;
+    }}
+
+
+    /* 自分の
+@media screen and (max-width:600px){
+    header{
+        width: 100%;
+    }
+
+    .nav-list{
+        width: 100%;
+    }
+
+    .nav-list-item{
+        width: 100%;
+    }
+
+    .main-visual-content{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .blog{
+        width: 100%;
+    }
+
+    .sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+*/
