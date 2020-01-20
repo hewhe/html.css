@@ -218,7 +218,7 @@ footer {
     color: #ffffff;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:769px) {
     header {
         width: 100%;
     }
@@ -258,6 +258,12 @@ footer {
         padding-left: 3%;　/*完全に端にくっついていると見にくいから*/
         padding-right: 3%;
     }
+    .sidebar-contents{
+        padding: 50px 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        /* text-align: center; */
+    }    
     .instagram-box {
         width: 48%;
         padding-top: 48%; /*なにこれ、このpadding-topの意味がわからない（上のも）*/
@@ -267,7 +273,8 @@ footer {
     }
     .pagination { 
         margin-bottom: 50px;
-    }}
+    }
+}
 
 
     /* 自分の
