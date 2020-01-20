@@ -75,12 +75,12 @@ main{
         width: 100%;
         margin-right: 0;
         margin-bottom: 20px;
-        float: none;  　/*これがないと、mainで決めたmarginを無視してくる*/
+        /* float: none;  　これがないと、mainで決めたmarginを無視してくる */
     }
 
     .img1{
         width: 100%;　/*paddingの設定をしているのに画像が突き抜けるから設定*/
-        height: 180px;
+        /* height: 180px; */
     }
 
     .img2{
